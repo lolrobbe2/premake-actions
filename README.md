@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Use the premake-manager action from this repo
-      - uses: lolrobbe2/premake-actions/premake-manager@v1
+      - uses: lolrobbe2/install-premake-manager/premake-manager@v1
 
       - name: Run premake-manager
         run: premake-manager-cli --version
